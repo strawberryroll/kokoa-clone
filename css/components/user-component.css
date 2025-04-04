@@ -10,8 +10,8 @@
 }
 .user-component__avatar {
     width: 70px;
-    height: 70px;
-    border-radius: 35%;
+    height: 67px;
+    border-radius: 40%;
     margin-right: 20px;
 }
 .user-component__title {
@@ -38,11 +38,11 @@
 }
 .user-component__avatar--xl {
     width: 80px;
-    height: 80px;
+    height: 77px;
 }
 .user-component__avatar--sm {
     width: 60px;
-    height: 60px;
+    height: 57px;
 }
 .user-component__title--not-bold {
     font-weight: 400;
