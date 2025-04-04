@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chat - Kokoa Clone</title>
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fa-solid fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>25%</span>
+                <i class="fa-solid fa-battery-quarter fa-lg"></i>
+                <i class="fa-solid fa-bolt fa-2xs"></i>
+            </div>
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html">
+                    <i class="fas fa-angle-left fa-lg"></i>
+                </a>
+            </div>
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">strawberry</h1>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fas fa-search fa-lg"></i></span>
+                <span><i class="fas fa-bars fa-lg"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">Tuesday, April 10, 2025</div>
+
+            <div class="message-row">
+                <img
+                    src="https://avatars.githubusercontent.com/u/138025938?s=400&u=2d879783117f0a03dc2c69f2ba662e4fd31f30e8"
+                />
+                <div class="message-row__content">
+                    <span class="message__author">strawberry</span>
+                    <div class="message__info">
+                        <span class="message__bubble">Hi!</span>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__info">
+                        <span class="message__bubble">What's up?</span>
+                        <span class="message__time">21:27</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <i class="far fa-plus-square fa-2x"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message" />
+                <i class="far fa-smile-wink fa-2x"></i>
+                <button>
+                    <i class="fas fa-arrow-up fa-2x"></i>
+                </button>
+            </div>
+        </form>
+
+        <script
+            src="https://kit.fontawesome.com/40c377af3a.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
