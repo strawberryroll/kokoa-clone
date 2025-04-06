@@ -38,7 +38,8 @@
     border-color: var(--yellow);
 }
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    /* background-color: var(--yellow); */
+    background-color: #d2e39f;
     cursor: pointer;
     padding: 15px 0;
     border-radius: 5px;
@@ -48,4 +49,12 @@
     font-size: 13px;
     text-decoration: none;
     color: inherit;
+}
+
+.character-img {
+    width: 250px;
+    height: 130px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }

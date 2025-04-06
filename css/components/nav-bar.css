@@ -1,5 +1,6 @@
 .nav {
-    background-color: #f9f9fa;
+    /* background-color: #f9f9fa; */
+    background-color: #d2e39f;
     padding: 20px 50px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -19,7 +20,7 @@
     position: absolute;
     left: 20px;
     bottom: 15px;
-    animation: notificationAnimation 2s ease-in-out infinite;
+    animation: notificationAnimation 1s ease-in-out infinite;
 }
 .nav__dot {
     background-color: tomato;
@@ -35,7 +36,7 @@
         transform: none;
     }
     50% {
-        transform: translateY(-5px) rotateY(180deg);
+        transform: translateY(-5px);
     }
     100% {
         transform: none;
